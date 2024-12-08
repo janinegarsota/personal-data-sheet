@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Personal Data Sheet</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--Navigation-->
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="logo-icon">
+                                <img src="assets/pictures/csc.png">
+                            </span>
+                            <span class="title">Civil Service Commission</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <ion-icon name="stats-chart-outline"></ion-icon>
+                            </span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <ion-icon name="person-outline"></ion-icon>
+                            </span>
+                            <span class="title">Personal Data</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <ion-icon name="settings-outline"></ion-icon>
+                            </span>
+                            <span class="title">Settings</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <ion-icon name="log-out-outline"></ion-icon>
+                            </span>
+                            <span class="title">Log-out</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--main-->
+        <div class="main">
+            <div class="topbar">
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search anything here...">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="assets/pictures/2x2.jpg" alt="user">
+                </div>
+            </div>
+
+            <!--cards-->
+
+            <div class="cardheader1">
+                <h2>Dashboard</h2>
+            </div>
+
+            <div class="cardsubheader1">
+                <h3>Quickly view the statistics of records</h3>
+            </div>
+
+            <div class="cardbox">
+
+                <div class="card">
+                    <div class="iconbx">
+                        <img src="assets/pictures/1.png">
+                    </div>
+                    <div class="cardname">Total People</div>
+                    <div class="numbers">524</div>
+                </div>
+    
+                <div class="card">
+                    <div class="iconbx">
+                        <img src="assets/pictures/2.png">
+                    </div>
+                    <div class="cardname">Female</div>
+                    <div class="numbers">344</div>
+                </div>
+    
+                <div class="card">
+                    <div class="iconbx">
+                        <img src="assets/pictures/3.png">
+                    </div>
+                    <div class="cardname">Male</div>
+                    <div class="numbers">180</div>
+                </div>
+
+                
+
+            </div>
+
+            
+            <!--dashboard-->
+
+            <div class="cardheader2">
+                <h3>Overall table of records</h3>
+                <!--lagyan to ng entry per page pati search-->
+            </div>
+
+            <div class="details">
+                <div class="overall-table">
+                    
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Civil Status</td>
+                                <td>Name</td>
+                                <td>Sex</td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Single</td>
+                                <td>AQUINO, KATE MARIE GONZALES</td>
+                                <td>F</td>
+                            </tr>
+
+                            <tr>
+                                <td>Married</td>
+                                <td>BAUTISTA, CARLOS GARCIA</td>
+                                <td>M</td>
+                            </tr>
+
+                            <tr>
+                                <td>Married</td>
+                                <td>CRUZ, JINX SANTOS</td>
+                                <td>M</td>
+                            </tr>
+
+                            <tr>
+                                <td>Single</td>
+                                <td>DELA CRUZ, JOHN CATACUTAN</td>
+                                <td>M</td>
+                            </tr>
+
+                            <tr>
+                                <td>Married</td>
+                                <td>GARCIA, ANA CONDA GONZALES</td>
+                                <td>F</td>
+                            </tr>
+
+                            <tr>
+                                <td>Married</td>
+                                <td>SALES, MARK LEENA</td>
+                                <td>M</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        
+        
+
+        <script src="assets/js/main.js"></script>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
